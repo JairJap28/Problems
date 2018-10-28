@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+// Implemented with Dejkstra
 package Programming_Training;
 
 import java.io.BufferedReader;
@@ -15,15 +11,8 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-/**
- *
- * @author Hermanos-Jimenez
- */
-public class NonStopTavel {
+public class NonStopTavelD {
 
-    /**
-     * @param args the command line arguments
-     */
     
     static int v,e;
     static int MAX = 11;
