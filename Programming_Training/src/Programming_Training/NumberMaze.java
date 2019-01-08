@@ -16,7 +16,6 @@ public class NumberMaze {
     int cY[] = {0,1,0,-1};
     int cX[] = {-1,0,1,0};
     
-    
     boolean intree[][];
     int distance[][];
     
@@ -47,7 +46,7 @@ public class NumberMaze {
                                 q.add(new Node(auxY, auxX, distance[auxY][auxX]));
                             }
                         }
-                    }catch(Exception e){}
+                    }catch(Exception e){}    
 
                     auxX -= cX[i];
                     auxY -= cY[i];
